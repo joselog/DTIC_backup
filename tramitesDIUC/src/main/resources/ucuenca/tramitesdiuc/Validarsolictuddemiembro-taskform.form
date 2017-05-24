@@ -1,0 +1,278 @@
+
+<form id="1227821407">
+<property name="name" value="Validarsolictuddemiembro-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="18" name="miembro_RUC" type="InputText" id="1556242219">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;RUC (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/RUC"/>
+<property name="outputBinding" value="miembro/RUC"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="24" name="miembro_actividades_consideradas" type="InputText" id="1352872361">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;actividades_consideradas (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/actividades_consideradas"/>
+<property name="outputBinding" value="miembro/actividades_consideradas"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="25" name="miembro_actividades_no_consideradas" type="InputText" id="401825031">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;actividades_no_consideradas (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/actividades_no_consideradas"/>
+<property name="outputBinding" value="miembro/actividades_no_consideradas"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="miembro_afiliacion" type="InputText" id="1884136534">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;afiliacion (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/afiliacion"/>
+<property name="outputBinding" value="miembro/afiliacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="23" name="miembro_aporte_cientifico" type="InputText" id="514725008">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;aporte_cientifico (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/aporte_cientifico"/>
+<property name="outputBinding" value="miembro/aporte_cientifico"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="miembro_cargo" type="InputText" id="1308333584">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;cargo (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/cargo"/>
+<property name="outputBinding" value="miembro/cargo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="miembro_correo_institucional" type="InputText" id="1248320377">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;correo_institucional (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/correo_institucional"/>
+<property name="outputBinding" value="miembro/correo_institucional"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="miembro_correo_personal" type="InputText" id="2017093025">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;correo_personal (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/correo_personal"/>
+<property name="outputBinding" value="miembro/correo_personal"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="miembro_escuela" type="InputText" id="905444738">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;escuela (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/escuela"/>
+<property name="outputBinding" value="miembro/escuela"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="miembro_facultad" type="InputText" id="1469261017">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;facultad (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/facultad"/>
+<property name="outputBinding" value="miembro/facultad"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="21" name="miembro_fecha_fin" type="InputDate" id="982690279">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_fin (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/fecha_fin"/>
+<property name="outputBinding" value="miembro/fecha_fin"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="22" name="miembro_fecha_inicio" type="InputDate" id="1167380613">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;fecha_inicio (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/fecha_inicio"/>
+<property name="outputBinding" value="miembro/fecha_inicio"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="10" name="miembro_nombres" type="InputText" id="1984586997">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombres (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/nombres"/>
+<property name="outputBinding" value="miembro/nombres"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="miembro_nro_documento" type="InputText" id="1577025171">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;nro_documento (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/nro_documento"/>
+<property name="outputBinding" value="miembro/nro_documento"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="miembro_tipo_documento" type="InputText" id="745352355">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;tipo_documento (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/tipo_documento"/>
+<property name="outputBinding" value="miembro/tipo_documento"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="20" name="miembro_tipo_institucion" type="InputText" id="1500680397">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;tipo_institucion (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/tipo_institucion"/>
+<property name="outputBinding" value="miembro/tipo_institucion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="19" name="miembro_ubicacion" type="InputText" id="1642207954">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;ubicacion (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/ubicacion"/>
+<property name="outputBinding" value="miembro/ubicacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="27" name="solicitud_correcta" type="CheckBox" id="2086341591">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;solicitud_correcta (solicitud_correcta)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="solicitud_correcta"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+<property name="onChangeScript" value="var fieldDisplay; 
+if (this.value == FALSE) { 
+    fieldDisplay = &quot;block&quot;; 
+} else {
+    fieldDisplay = &quot;none&quot;; 
+}
+$(&quot;#tramite_observaciones_validacion_label_container&quot;).css(&quot;display&quot;, fieldDisplay);   
+$(&quot;#tramite_observaciones_validacion_label&quot;).css(&quot;display&quot;, fieldDisplay);
+$(&quot;#tramite_observaciones_validacion_container&quot;).css(&quot;display&quot;, fieldDisplay);
+$(&quot;#tramite_observaciones_validacion&quot;).css(&quot;display&quot;, fieldDisplay);"/>
+</field>
+<field position="6" name="tramite_codigo_proyecto" type="InputText" id="282224267">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;codigo_proyecto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/codigo_proyecto"/>
+<property name="outputBinding" value="tramite/codigo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="tramite_convocatoria" type="InputText" id="2038560094">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;convocatoria (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/convocatoria"/>
+<property name="outputBinding" value="tramite/convocatoria"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="tramite_fecha_solicitud" type="InputDate" id="86553295">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_solicitud (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fecha_solicitud"/>
+<property name="outputBinding" value="tramite/fecha_solicitud"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="tramite_nro_tramite" type="InputTextInteger" id="229047408">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;nro_tramite (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/nro_tramite"/>
+<property name="outputBinding" value="tramite/nro_tramite"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="tramite_solicitante" type="InputText" id="1330778076">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;solicitante (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/solicitante"/>
+<property name="outputBinding" value="tramite/solicitante"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="tramite_telefono_contacto" type="InputText" id="1350277168">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;telefono_contacto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/telefono_contacto"/>
+<property name="outputBinding" value="tramite/telefono_contacto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="tramite_titulo_proyecto" type="InputText" id="1203480803">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;titulo_proyecto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/titulo_proyecto"/>
+<property name="outputBinding" value="tramite/titulo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="28" name="tramite_observaciones_validacion" type="InputText" id="2034520026">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;observaciones_validacion (tramite)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="tramite/observaciones_validacion"/>
+<property name="outputBinding" value="tramite/observaciones_validacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name=":decorator_0" type="Separator" id="1921314949">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="14" name="miembro_dedicacion" type="InputTextInteger" id="1011153890">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;dedicacion (miembro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembro/dedicacion"/>
+<property name="outputBinding" value="miembro/dedicacion"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="26" name=":decorator_1" type="Separator" id="911584321">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<dataHolder inputId="miembro" name="#E9E371" type="dataModelerEntry" outId="miembro" value="ucuenca.tramitesdiuc.miembro" id="miembro"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="solicitud_correcta" value="java.lang.Boolean" id="solicitud_correcta"/>
+<dataHolder inputId="tipo_tramite" name="#E9E371" type="basicType" outId="tipo_tramite" value="java.lang.String" id="tipo_tramite"/>
+<dataHolder inputId="tramite" name="#FF54A7" type="dataModelerEntry" outId="tramite" value="ucuenca.tramitesdiuc.tramite" id="tramite"/>
+</form>

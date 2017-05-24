@@ -1,0 +1,135 @@
+
+<form id="869206137">
+<property name="name" value="Validarinformedeavance-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="10" name="informe_avance_observaciones" type="InputText" id="72960634">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones (informe_avance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="informe_avance/observaciones"/>
+<property name="outputBinding" value="informe_avance/observaciones"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="informe_avance_periodo" type="InputText" id="1140027937">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;periodo (informe_avance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="informe_avance/periodo"/>
+<property name="outputBinding" value="informe_avance/periodo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="solicitud_correcta" type="CheckBox" id="2046507950">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;solicitud_correcta (solicitud_correcta)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="solicitud_correcta"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+<property name="onChangeScript" value="var fieldDisplay; 
+if (this.value == FALSE) { 
+    fieldDisplay = &quot;block&quot;; 
+} else {
+    fieldDisplay = &quot;none&quot;; 
+}
+$(&quot;#tramite_observaciones_validacion_label_container&quot;).css(&quot;display&quot;, fieldDisplay);   
+$(&quot;#tramite_observaciones_validacion_label&quot;).css(&quot;display&quot;, fieldDisplay);
+$(&quot;#tramite_observaciones_validacion_container&quot;).css(&quot;display&quot;, fieldDisplay);
+$(&quot;#tramite_observaciones_validacion&quot;).css(&quot;display&quot;, fieldDisplay);"/>
+</field>
+<field position="0" name="tramite_codigo_proyecto" type="InputText" id="369271620">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codigo_proyecto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/codigo_proyecto"/>
+<property name="outputBinding" value="tramite/codigo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="tramite_convocatoria" type="InputText" id="676032116">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;convocatoria (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/convocatoria"/>
+<property name="outputBinding" value="tramite/convocatoria"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="tramite_fecha_solicitud" type="InputDate" id="89471097">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_solicitud (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fecha_solicitud"/>
+<property name="outputBinding" value="tramite/fecha_solicitud"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="tramite_nro_tramite" type="InputTextInteger" id="296573702">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nro_tramite (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/nro_tramite"/>
+<property name="outputBinding" value="tramite/nro_tramite"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="13" name="tramite_observaciones_validacion" type="InputText" id="752343315">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones_validacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/observaciones_validacion"/>
+<property name="outputBinding" value="tramite/observaciones_validacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="tramite_solicitante" type="InputText" id="920100863">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;solicitante (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/solicitante"/>
+<property name="outputBinding" value="tramite/solicitante"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="tramite_telefono_contacto" type="InputText" id="1475933965">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;telefono_contacto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/telefono_contacto"/>
+<property name="outputBinding" value="tramite/telefono_contacto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="tramite_titulo_proyecto" type="InputText" id="734365195">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;titulo_proyecto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/titulo_proyecto"/>
+<property name="outputBinding" value="tramite/titulo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name=":decorator_0" type="Separator" id="1154341916">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="7" name=":decorator_1" type="Separator" id="1150364127">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="8" name="informe_avance_informe" type="Document" id="163228232">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Document14quot;quot;esquot;,quot;Informe de avance:quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="informe_avance/informe"/>
+<property name="outputBinding" value="informe_avance/informe"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<dataHolder inputId="informe_avance" name="#000000" type="dataModelerEntry" outId="informe_avance" value="ucuenca.tramitesdiuc.informe_avance" id="informe_avance"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="solicitud_correcta" value="java.lang.Boolean" id="solicitud_correcta"/>
+<dataHolder inputId="tipo_tramite" name="#E9E371" type="basicType" outId="tipo_tramite" value="java.lang.String" id="tipo_tramite"/>
+<dataHolder inputId="tramite" name="#FF54A7" type="dataModelerEntry" outId="tramite" value="ucuenca.tramitesdiuc.tramite" id="tramite"/>
+</form>
